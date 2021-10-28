@@ -94,15 +94,48 @@ ul {
     width: 40%;
 }
 
-#team {
+#form {
+    
+    padding-left: 60px;
+}
+
+.reach {
+    color: rgb(28, 179, 199);
+    margin-bottom: 3%;
+}
+
+.suggestion {
+    margin-bottom: 5%;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 10px;
+    margin:  15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #team {
     float: right;
     width: 50%;
 }
 
-#form {
-    padding-left: 60px;
+.team_help {
+    color: rgb(28, 179, 199);
+    margin-bottom: 3%;
 }
 
+.help {
+    margin-bottom: 7%;
+}
+#social {
+    float: right;
+    width: 50%;
+    font-size: 80%;
+}
 
     
 
