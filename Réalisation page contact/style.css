@@ -3,7 +3,8 @@
     padding: 0%;
 }
 header {
-    padding: 25px 3%;
+    padding: 25px 10px;
+    
     background-color: rgb(28, 179, 199);
 }
 
@@ -21,7 +22,6 @@ img {
 
 ul {
     list-style: none;
-    
 }
 
 
@@ -40,12 +40,14 @@ ul {
 
 }
 
+.menu_b {
+    float: right;
+}
+
 .menu_b  {
     display: inline-block;
-    padding: 4px 10px;
-    float: right;
+    padding: 0px 3px;
     text-decoration: none;
-    
 }
 
 .menu_b li :hover {
@@ -62,11 +64,43 @@ ul {
 
 
 .b button{
-    background-color: turquoise;
+    background-color: rgb(28, 179, 199);
     padding: 9px 25px;
     border-color: white;
     border-radius: 4px;
     color: whitesmoke;
+}
+
+#title {
+    background-color: rgb(28, 179, 199);
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+    margin-bottom: 5%;
+    padding-top: 60px;
+    
+}
+
+.titre {
+    font-size: 40px;
+}
+
+.paragraph {
+    color: black;
+}
+
+#form {
+    float: left;
+    width: 40%;
+}
+
+#team {
+    float: right;
+    width: 50%;
+}
+
+#form {
+    padding-left: 60px;
 }
 
 
