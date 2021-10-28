@@ -1,13 +1,18 @@
+
 * {
     margin: 0%;
     padding: 0%;
 }
+
+body {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
 header {
     padding: 25px 10px;
     
     background-color: rgb(28, 179, 199);
 }
-
 
 img {
     margin: 0%;
@@ -23,8 +28,6 @@ img {
 ul {
     list-style: none;
 }
-
-
 
 .menu_a ,li, a {
     
@@ -54,7 +57,7 @@ ul {
     color: blue;
 }
 
-.a button {
+.btn_a button {
     padding: 9px 25px;
     background-color: black;
     border: none;
@@ -63,7 +66,7 @@ ul {
 }
 
 
-.b button{
+.btn_b button{
     background-color: rgb(28, 179, 199);
     padding: 9px 25px;
     border-color: white;
@@ -131,6 +134,8 @@ input, select {
 .help {
     margin-bottom: 7%;
 }
+
+
 #social {
     float: right;
     width: 50%;
