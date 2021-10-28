@@ -1,9 +1,88 @@
-body{
-    background-color: green;
+* {
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    padding: 25px 3%;
+    background-color: rgb(28, 179, 199);
+}
+
+
+img {
+    margin: 0%;
+    padding-left: 60px;
+    width: 8%;
+    
+}
+
+.logo {
+    float: left;
 }
 
 ul {
     list-style: none;
-    display: inline-block;
     
 }
+
+
+
+.menu_a ,li, a {
+    
+    display: inline-block;
+    padding: 6px 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+.menu_a li a:hover {
+    color: blue;
+
+}
+
+.menu_b  {
+    display: inline-block;
+    padding: 4px 10px;
+    float: right;
+    text-decoration: none;
+    
+}
+
+.menu_b li :hover {
+    color: blue;
+}
+
+.a button {
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+
+.b button{
+    background-color: turquoise;
+    padding: 9px 25px;
+    border-color: white;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+
+
+    
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+               
