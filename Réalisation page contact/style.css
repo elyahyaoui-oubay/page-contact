@@ -149,16 +149,20 @@ input, select {
     margin-bottom: 3%;
 }
 
-.fa {
+
+.clearfix{
+    clear: both;
+}
+.s1 img{
     float: left;
-    width: 40px;
-    
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+.s1 p{
+    margin-right: 40px;
 }
 
-.twi {
-   
-    width: 120px;
-}
+
     
 
 
