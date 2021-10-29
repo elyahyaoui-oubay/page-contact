@@ -220,19 +220,100 @@ input, select {
 .msj{
     padding: 10px;
 }
-    
+
+footer {
+    background-color: #1e3d58;
+    overflow: auto;
+    color: white;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+footer h3 {
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+
+}
+
+.footer-div {
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.clear-float {
+    clear: both;
+    box-sizing: border-box;
+
+}
 
 
+.footer-about, .footer-help, .footer-resoures, .footer-landing, .footer-commercial {
+    padding: 22px;
+    margin-left: 16px;
+    box-sizing: border-box;
+
+}
+.footer-about {
+    margin-left: 52px;
+    box-sizing: border-box;
+
+}
+footer ul {
+    color: #7999ab;
+    margin-top: 8px;
+    box-sizing: border-box;
+
+}
+
+.footer-trial {
+    width: 15%;
+    padding: 22px 0px 22px 22px;
+    margin-left: 16px;
+    box-sizing: border-box;
 
 
+}
 
- 
+footer i {
+    color: #43b0f1;
+    box-sizing: border-box;
 
+}
 
+.footer-btn {
+    background-color: #031b29;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 8px;
+    box-sizing: border-box;
 
- 
+}
 
+.footer-btn:hover {
+    cursor: pointer;
+    background-color: #43b0f1;
+    box-sizing: border-box;
 
+}
 
+.copyrights {
+    padding: 8px 16px 18px 64px;
+    background-color: #152b3e;
+    width: 100%;
+    font-size: 12px;
+    color: #828e98;
+    font-weight: lighter;
+    box-sizing: border-box;
 
-               
+}
+
+.copyrights span {
+    color: #43b0f1;
+    box-sizing: border-box;
+
+}
