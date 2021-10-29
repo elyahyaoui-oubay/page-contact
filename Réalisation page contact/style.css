@@ -14,14 +14,10 @@ header {
     background-color: rgb(28, 179, 199);
 }
 
-img {
+.logo {
     margin: 0%;
     padding-left: 60px;
     width: 8%;
-    
-}
-
-.logo {
     float: left;
 }
 
@@ -121,6 +117,11 @@ input, select {
     box-sizing: border-box;
   }
 
+  .message {
+        padding-bottom: 100px;
+        width: 100%;
+  }
+
   #team {
     float: right;
     width: 50%;
@@ -137,11 +138,27 @@ input, select {
 
 
 #social {
+    
     float: right;
     width: 50%;
     font-size: 80%;
+    
 }
 
+.connect {
+    margin-bottom: 3%;
+}
+
+.fa {
+    float: left;
+    width: 40px;
+    
+}
+
+.twi {
+   
+    width: 120px;
+}
     
 
 
