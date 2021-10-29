@@ -1,14 +1,19 @@
 
 * {
+    
     margin: 0%;
     padding: 0%;
+    
 }
 
 body {
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    
 }
 
 header {
+    position: fixed;
+    width: 100%;
     padding: 25px 10px;
     
     background-color: rgb(28, 179, 199);
@@ -50,6 +55,7 @@ ul {
 }
 
 .menu_b li :hover {
+    cursor: pointer;
     color: blue;
 }
 
@@ -76,7 +82,7 @@ ul {
     text-align: center;
     padding-bottom: 60px;
     margin-bottom: 5%;
-    padding-top: 60px;
+    padding-top: 160px;
     
 }
 
@@ -96,6 +102,16 @@ ul {
 #form {
     
     padding-left: 60px;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+
 }
 
 .reach {
@@ -132,8 +148,9 @@ input, select {
     margin-bottom: 3%;
 }
 
-.help {
+.help a {
     margin-bottom: 7%;
+    color: darkgray;
 }
 
 
@@ -149,20 +166,60 @@ input, select {
     margin-bottom: 3%;
 }
 
-
-.clearfix{
-    clear: both;
-}
-.s1 img{
+.fa-facebook {
     float: left;
-    margin-bottom: 30px;
-    margin-right: 20px;
-}
-.s1 p{
-    margin-right: 40px;
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: darkgray;
+    
 }
 
+.fa-twitter-square {
+    clear: both;
+    float: left;
+    padding-bottom: 10px;
+    font-size: 50px;
+    color: darkgray;
+}
 
+.fa-linkedin {
+    clear: both;
+    float: left;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: darkgray;
+}
+
+.ps{
+    margin-right: 96px;
+    margin-top: 31px;
+}
+
+#submit_button{
+    float: right;
+    background-color: rgb(28, 179, 199);
+    margin-top: 60px;
+    font-size: 80%;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 50px;
+}
+#submit_button:hover{
+    cursor: pointer;
+    background-color: #000dc2;
+}
+
+.ps a{
+    color: rgb(28, 179, 199);
+    padding: 0%;
+    margin: 0%;
+}
+
+.msj{
+    padding: 10px;
+}
     
 
 
