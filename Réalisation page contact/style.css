@@ -30,21 +30,28 @@ ul {
     list-style: none;
 }
 
-.menu_a ,li, a {
-    
-    display: inline-block;
-    padding: 6px 15px;
+a {
     text-decoration: none;
-    color: whitesmoke;
-    
 }
 
-.menu_a li a:hover {
-    color: blue;
-
+nav ul li {
+    display: inline;
+    padding: 5px 50px;
+    color: white;
 }
 
-.menu_b {
+nav ul {
+    float: left;
+    margin:0;
+    margin-top: 20px;
+    color: white;
+}
+
+.menu_a {
+    color: white;
+}
+
+.menu_b{
     float: right;
 }
 
@@ -149,8 +156,12 @@ input, select {
 }
 
 .help a {
-    margin-bottom: 7%;
+    margin-bottom: 15%;
     color: darkgray;
+}
+
+.help {
+    margin-bottom: 8%;
 }
 
 
@@ -163,7 +174,7 @@ input, select {
 }
 
 .connect {
-    margin-bottom: 3%;
+    margin-bottom: 5%;
 }
 
 .fa-facebook {
@@ -217,16 +228,13 @@ input, select {
     margin: 0%;
 }
 
-.msj{
-    padding: 10px;
-}
-
 footer {
-    background-color: #1e3d58;
+    background-color: rgb(28, 179, 199);
     overflow: auto;
     color: white;
     font-weight: 300;
     box-sizing: border-box;
+    
 }
 
 footer h3 {
@@ -263,7 +271,7 @@ footer h3 {
 
 }
 footer ul {
-    color: #7999ab;
+    color: #000000;
     margin-top: 8px;
     box-sizing: border-box;
 
@@ -279,7 +287,7 @@ footer ul {
 }
 
 footer i {
-    color: #43b0f1;
+    color: rgb(15, 11, 11);
     box-sizing: border-box;
 
 }
@@ -317,3 +325,5 @@ footer i {
     box-sizing: border-box;
 
 }
+
+
