@@ -51,6 +51,8 @@ nav ul {
     color: white;
 }
 
+
+
 .menu_b{
     float: right;
 }
@@ -140,12 +142,12 @@ input, select {
     box-sizing: border-box;
   }
 
-  .message {
+.message {
         padding-bottom: 100px;
         width: 100%;
   }
 
-  #team {
+#team {
     float: right;
     width: 50%;
 }
@@ -231,17 +233,23 @@ input, select {
 footer {
     background-color: rgb(28, 179, 199);
     overflow: auto;
-    color: white;
     font-weight: 300;
     box-sizing: border-box;
-    
+}
+
+a {
+    color: black;
+}
+
+footer li :hover{
+    color:white;
 }
 
 footer h3 {
     font-size: 16px;
     font-weight: lighter;
     color: white;
-    margin-bottom: 8px;
+    margin-bottom: 18px;
     box-sizing: border-box;
 
 }
@@ -255,7 +263,6 @@ footer h3 {
 .clear-float {
     clear: both;
     box-sizing: border-box;
-
 }
 
 
@@ -266,21 +273,21 @@ footer h3 {
 
 }
 .footer-about {
-    margin-left: 52px;
+    margin-left: 80px;
     box-sizing: border-box;
 
 }
 footer ul {
-    color: #000000;
-    margin-top: 8px;
+    color: black;
+    margin-top: 15px;
     box-sizing: border-box;
 
 }
 
 .footer-trial {
-    width: 15%;
+    width: 20%;
     padding: 22px 0px 22px 22px;
-    margin-left: 16px;
+    margin-left: 25px;
     box-sizing: border-box;
 
 
@@ -295,9 +302,9 @@ footer i {
 .footer-btn {
     background-color: #031b29;
     color: white;
-    padding: 8px 16px;
+    padding: 10px 20px;
     border-radius: 5px;
-    margin-top: 8px;
+    margin-top: 10px;
     box-sizing: border-box;
 
 }
@@ -310,12 +317,12 @@ footer i {
 }
 
 .copyrights {
-    padding: 8px 16px 18px 64px;
+    padding: 10px 18px 20px 66px;
     background-color: #152b3e;
     width: 100%;
     font-size: 12px;
     color: #828e98;
-    font-weight: lighter;
+    
     box-sizing: border-box;
 
 }
